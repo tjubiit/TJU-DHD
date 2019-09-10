@@ -4,11 +4,18 @@
 
   The new diverse high-resolution dataset (called DHD) is built to focus on object detection in traffic and campus scenes. The dataset contains 115,354 high-resolution images (at least 1624x1200 pixels) and 709,330 labeled objects in total with a large variance in scale and appearance. Meanwhile, the dataset has a rich diversity in season variance, illumination variance, and weather variance. Based on this object dataset, a new diverse pedestrian dataset is further built. We hope that the newly built dataset can help promote the research on object detection and pedestrian detection in these two scenes.
 
+![Examples of DHD](imgs/demo.png)
+
 ## Datasets
 
 1. object detection in the DHD
 
-   ![Statistics of object detection in the DHD](imgs/dataset-obj.png)
+    |  name   | DHD-traffic (\#images)  | DHD-traffic (\#instances)  | DHD-campus (\#images) | DHD-campus (\#instances) |
+    | :------------ | :---------------:| :---------------:|:---------------:| :---------------:|    
+    | training | 45,266| 239,980 | 39,727| 267,445 |
+    | validation | 5,000 | 30,679 | 5,204 | 41,620 |
+    | test | 10,000 | 60,963 | 10,157 | 68,643 |
+    | total | 60,266 | 331,622 | 55,088 | 377,708 |
 
     * __DHD-traffic__:
         * training & validation set:
@@ -37,7 +44,12 @@
 
 2. pedestrian detection in the DHD
 
-   ![Statistics of pedestrian detection in the DHD](imgs/dataset-ped.png)
+    |  name   | Ped-traffic (\#images)  | Ped-traffic (\#instances)  | Ped-campus (\#images) | Ped-campus (\#instances) |
+    | :------------ | :---------------:| :---------------:|:---------------:| :---------------:|    
+    | training | 13,858| 27,650 | 39,727| 234,455 |
+    | validation | 2,136 | 5,244 | 5,204 | 36,161 |
+    | test | 4,344 | 10,724 | 10,157 | 59,007 |
+    | total | 20,338 | 43,618 | 55,088 | 329,623 |
 
     * __Ped-traffic__:
       (Note that the images are same as those in the DHD-traffic)
@@ -48,7 +60,7 @@
             * images: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EbkVOGVzsoRIhR6u73iAv44BN3n9geqp3R-eTJeZCJen-w?e=az00He)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_test_images.zip)
             * imageinfo: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EaqndNLmmcNOsgoHChviMiIB0eedPO6sgdZJBGPjURq2_Q?e=MEZNyD)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_traffic_test_imageinfo.zip)
         * evaluation tools:
-          [cocoapi](https://github.com/cocodataset/cocoapi)
+          [Citypersons API](https://bitbucket.org/shanshanzhang/citypersons)
 
     * __Ped-campus__:
       (Note that the images are same as those in the DHD-campus)
@@ -63,20 +75,46 @@
             * images: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EZZe-4Atw8tEkPdTToNXEboBtdORbKqz2j6asah_hgUgAA?e=ABQibv)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_test_images.zip)
             * imageinfo: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EXaIKrEGScJNulDTzu9NG8kBk18S03yvfKlNR-bS9NPh1g?e=aUUFBJ)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_campus_test_imageinfo.zip)
         * evaluation tools:
-          [cocoapi](https://github.com/cocodataset/cocoapi)
+          [Citypersons API](https://bitbucket.org/shanshanzhang/citypersons)
 
 ## Benchmark
 
 ### DHD-traffic
 
-![Result table for DHD-traffic](imgs/benchmark-traffic.png)
+* Results on validation
+
+  |  method   | backbone  | input size  | AP | AP@0.5 | AP@0.75 | AP_s | AP_m | AP_l |
+  | :------------ | :-----------:| :-----------:|:-----------:| :----------:|  :-----------:| :----------:|:----------:|:----------:|
+  | RetinaNet | ResNet50 | 1333x800 | 53.5| 80.9  | 60.0 | 24.0 | 50.5 | 68.0 |
+  | FCOS | ResNet50 | 1333x800  | 53.8| 80.0 | 60.1 | 24.6 | 50.6 | 68.8 |
+  | FPN | ResNet50 | 1333x800  | 55.4| 83.4 | 63.0 | 30.4 | 52.2 | 68.2 | 
+  | Cascade RCNN | ResNet50 | 1333x800  | 57.9| 82.7 | 66.6 | 32.6 | 54.4 | 71.4 |
 
 ### DHD-campus
 
-![Result table for DHD-campus](imgs/benchmark-campus.png)
+* Results on validation
+
+  |  method   | backbone  | input size  | AP | AP@0.5 | AP@0.75 | AP_t | AP_s | AP_l | AP_l |
+  | :---------- | :---------:| :---------:|:---------:| :---------:|:-----------:| :---------:|:-------:|:-------:|:-------:|
+  | RetinaNet | ResNet50 | 1333x800 | 48.4| 79.3  | 52.4 | 4.7 | 27.3 | 56.2 | 73.8 |
+  | FCOS | ResNet50 | 1333x800  | 49.3| 73.8 | 53.8 | 5.6 | 29.6 | 55.9 | 74.3 |
+  | FPN | ResNet50 | 1333x800  | 52.4| 77.5 | 58.4 | 8.5 | 37.4 | 58.6 |  74.9 | 
+  | Cascade RCNN | ResNet50 | 1333x800  | 55.1| 77.6 | 60.9 | 10.8 | 40.1 | 61.2 | 78.8 |
 
 ### DHD-pededstrian
 
-|     | Ped-campus  | Ped-traffic |
-| --- |:-----------:| -----------:|
-| FPN | 24.90/34.34 | 29.39/43.22 |
+* Same-scene evaluation
+
+  |   method  | MR on R/RS/HO/R+HO/A (Ped-campus) | MR on R/RS/HO/R+HO/A (Ped-traffic)  | 
+  | --- |:-----------:| :-----------:|
+  | FPN | 27.92/73.14/67.52/35.67/38.08 | 22.30/35.19/60.30/26.71/37.78 |
+
+* Cross-scene evaluatioin
+
+  |   method  | MR on R+HO an A   (trained by Ped-campus)  | MR on R+HO and A    (trained by Ped-traffic)  |
+  | --- |:--------------------:| :---------------------:|
+  | FPN | 24.90 / 34.34 | 29.39 / 43.22 |
+
+## Contact
+
+If you have any questions or want to add your results, please feel free to [contact us](https://github.com/vilabtju/dhd-dataset/issues).
