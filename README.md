@@ -1,8 +1,10 @@
 # TJU-DHD: A Diverse High-Resolution Dataset for Object Detection
 
+This (<https://github.com/vilabtju/dhd-dataset>) is the repo for the TJU-DHD dataset.
+
 ## Introduction
 
-  Vehicles, pedestrians, and riders are the most important and interesting objects in the perception modules of selfdriving vehicles and video surveillance. However, the state-ofthe-art performance of detecting such important objects (esp. small objects) is far from satisfying the demand of the practical systems. Large-scale, rich-diversity, and high-resolution vehicle and pedestrian datasets play an important role in developing better object detection methods to satisfy the demand. Existing public large-scale datasets such as MS COCO collected from website do not contain enough images under the above scenario. Moreover, the popular datasets (e.g., KITTI and Citypersons) which were collected from the interesting scenario are limited in the number of images and instances, the resolution, and the diversity in seasons, weathers, and illuminations. To attempt to solve the problem, in this paper, we build a diverse high-resolution dataset called (TJU-DHD). The dataset contains 115,354 highresolution images (52% images have resolution of 1624×1200 pixels and 48% images have resolution of at least 2560×1440 pixels) and 709,330 labeled objects in total with a large variance in scale and appearance. Meanwhile, the dataset has a rich diversity in season variance, illumination variance, and weather variance. Based on this object dataset, a new diverse pedestrian dataset is further built. With the four different detectors (i.e., the one-stage RetinaNet, anchor-free FCOS, two-stage FPN, and Cascade RCNN), experiments about object detection and pedestrian detection are conducted. We hope that the newly built dataset can help promote the research on object detection and pedestrian detection in these two scenes. The dataset is available at https://github.com/vilabtju/dhd-dataset.
+  Vehicles, pedestrians, and riders are the most important and interesting objects in the perception modules of selfdriving vehicles and video surveillance. However, the state-ofthe-art performance of detecting such important objects (esp. small objects) is far from satisfying the demand of the practical systems. Large-scale, rich-diversity, and high-resolution vehicle and pedestrian datasets play an important role in developing better object detection methods to satisfy the demand. Existing public large-scale datasets such as MS COCO collected from website do not contain enough images under the above scenario. Moreover, the popular datasets (e.g., KITTI and Citypersons) which were collected from the interesting scenario are limited in the number of images and instances, the resolution, and the diversity in seasons, weathers, and illuminations. To attempt to solve the problem, in this paper, we build a diverse high-resolution dataset called (TJU-DHD). The dataset contains 115,354 highresolution images (52% images have resolution of 1624×1200 pixels and 48% images have resolution of at least 2560×1440 pixels) and 709,330 labeled objects in total with a large variance in scale and appearance. Meanwhile, the dataset has a rich diversity in season variance, illumination variance, and weather variance. Based on this object dataset, a new diverse pedestrian dataset is further built. With the four different detectors (i.e., the one-stage RetinaNet, anchor-free FCOS, two-stage FPN, and Cascade RCNN), experiments about object detection and pedestrian detection are conducted. We hope that the newly built dataset can help promote the research on object detection and pedestrian detection in these two scenes.
 
 ![Examples of DHD](imgs/demo.png)
 
@@ -119,7 +121,7 @@
 
 Please cite our paper if you use our data.
 
-Yanwei Pang, Jiale Cao, Yazhao Li, Jin Xie, Hanqing Sun, and Jinfeng Gong. TJU-DHD: A Diverse High-Resolution Dataset for Object Detection.
+Yanwei Pang, Jiale Cao, Yazhao Li, Jin Xie, Hanqing Sun, and Jinfeng Gong. TJU-DHD: A Diverse High-Resolution Dataset for Object Detection. Technical report, 2019.
 
 ## Contact
 
