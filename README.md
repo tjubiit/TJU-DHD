@@ -12,15 +12,15 @@ This is the official website for "*[TJU-DHD: A Diverse High-Resolution Dataset f
 ## Table of Contents
 1. [Introduction](#1)  
 2. [Object detection dataset](#2)  
-   2.1 [TJU-traffic](#2.1)  
-   2.2 [TJU-campus](#2.2)   
+   2.1 [TJU-DHD-traffic](#2.1)  
+   2.2 [TJU-DHD-campus](#2.2)   
 3. [Pedestrian detection dataset](#3)  
-   3.1 [Ped-traffic](#3.1)  
-   3.2 [Ped-campus](#3.2)   
+   3.1 [TJU-Ped-traffic](#3.1)  
+   3.2 [TJU-Ped-campus](#3.2)   
 4. [Benchmark](#4)  
-   4.1 [TJU-traffic](#4.1)  
-   4.2 [TJU-campus](#4.2)   
-   4.3 [TJU-pedestrian](#4.3) 
+   4.1 [TJU-DHD-traffic](#4.1)  
+   4.2 [TJU-DHD-campus](#4.2)   
+   4.3 [TJU-DHD-pedestrian](#4.3) 
 5. [Citation](#5)  
 6. [Contact](#6) 
 
@@ -36,7 +36,7 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
 | test | 10,000 | 60,963 | 10,157 | 68,643 |
 | total | 60,266 | 331,622 | 55,088 | 377,708 |
 
-#### 2.1 TJU-traffic <a name="2.1"></a>
+#### 2.1 TJU-DHD-traffic <a name="2.1"></a>
 * training & validation set:
     * images: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/ERPTtJ9Qf3hHnKn9JQc9_y0B5uaq6qXjnF4U--2wiSTjRw?e=aarX3v)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_images.zip)
     * annotations: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EY0m5aX84EJFnquyCE8KSp8BiZKTlNHySbdJ0QG-nE2XTQ?e=Abpvgz)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_annos.zip)
@@ -46,7 +46,7 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
 * evaluation tools:
   [cocoapi](https://github.com/cocodataset/cocoapi)
 
-#### 2.2 TJU-campus <a name="2.2"></a>
+#### 2.2 TJU-DHD-campus <a name="2.2"></a>
 (The training imageset is too large, thus is ziped as a 4-part archive.
 One should download all of them and open the `.zip.001` using your favorite zip file extractor.)
 * training & validation set:
@@ -72,7 +72,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 | test | 4,344 | 10,724 | 10,157 | 59,007 |
 | total | 20,338 | 43,618 | 55,088 | 329,623 |
 
-#### 3.1 Ped-campus <a name="3.1"></a>
+#### 3.1 Ped-DHD-campus <a name="3.1"></a>
 (Note that the images are same as those in the DHD-traffic)
 * training & validation set:
     * images: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/ERPTtJ9Qf3hHnKn9JQc9_y0B5uaq6qXjnF4U--2wiSTjRw?e=aarX3v)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_images.zip)
@@ -83,7 +83,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 * evaluation tools:
   [Citypersons API](https://bitbucket.org/shanshanzhang/citypersons)
 
-#### 3.2 Ped-campus <a name="3.2"></a>
+#### 3.2 Ped-DHD-campus <a name="3.2"></a>
 (Note that the images are same as those in the DHD-campus)
 * training & validation set:
     * training images-1: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EQOf_tTaDz9AtGBA7xXZdMYBmGgEN3wI6pYxdj_sqU9RaA?e=IAa4z4)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.001)
@@ -102,7 +102,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 
 ## 4. Benchmark <a name="4"></a>
 
-#### 4.1 TJU-traffic <a name="4.1"></a>
+#### 4.1 TJU-DHD-traffic <a name="4.1"></a>
 
 * Results on validation
 
@@ -113,7 +113,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
   | FPN | ResNet50 | 1333x800  | 55.4| 83.4 | 63.0 | 30.4 | 52.2 | 68.2 | 
   | Cascade RCNN | ResNet50 | 1333x800  | 57.9| 82.7 | 66.6 | 32.6 | 54.4 | 71.4 |
 
-### 4.2 TJU-campus <a name="4.2"></a>
+### 4.2 TJU-DHD-campus <a name="4.2"></a>
 
 * Results on validation
 
@@ -124,7 +124,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
   | FPN | ResNet50 | 1333x800  | 52.4| 77.5 | 58.4 | 8.5 | 37.4 | 58.6 |  74.9 | 
   | Cascade RCNN | ResNet50 | 1333x800  | 55.1| 77.6 | 60.9 | 10.8 | 40.1 | 61.2 | 78.8 |
 
-### 4.3 DHD-pededstrian <a name="4.3"></a>
+### 4.3 TJU-DHD-pededstrian <a name="4.3"></a>
 
 * Same-scene evaluation
 
