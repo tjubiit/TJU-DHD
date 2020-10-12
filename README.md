@@ -21,8 +21,8 @@ This is the official website for "*[TJU-DHD: A Diverse High-Resolution Dataset f
    4.1 [TJU-traffic](#4.1)  
    4.2 [TJU-campus](#4.2)   
    4.3 [TJU-pedestrian](#4.3) 
-5. [Citation](#4)  
-6. [Citation](#4) 
+5. [Citation](#5)  
+6. [Contact](#6) 
 
 ## 1. Introduction <a name="1"></a>
 
