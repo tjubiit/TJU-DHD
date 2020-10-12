@@ -20,13 +20,14 @@ This is the official website for "*[TJU-DHD: A Diverse High-Resolution Dataset f
 4. [Benchmark](#4)  
    4.1 [TJU-traffic](#4.1)  
    4.2 [TJU-campus](#4.2)   
-   4.3 [TJU-pedestrian](#4.2) 
-4. [Citation](#4)  
+   4.3 [TJU-pedestrian](#4.3) 
+5. [Citation](#4)  
+6. [Citation](#4) 
 
-## Introduction <a name="1"></a>
+## 1. Introduction <a name="1"></a>
 
 Vehicles, pedestrians, and riders are the most important and interesting objects in the perception modules of self-driving vehicles and video surveillance. However, the state-of-the-art performance of detecting such important objects (esp. small objects) is far from satisfying the demand of the practical systems. Large-scale, rich-diversity, and high-resolution vehicle and pedestrian datasets play an important role in developing better object detection methods to satisfy the demand. Existing public large-scale datasets such as MS COCO collected from websites do not focus on these specific scenarios. Moreover, the popular datasets (e.g., KITTI and Citypersons) collected from these specific scenarios are limited in the number of images and instances, the resolution, and the diversity in seasons, weathers, and illuminations. To attempt to solve the problem, in this paper, we build a diverse high-resolution dataset (called TJU-DHD). The dataset contains 115,354 high-resolution images (52% images have a resolution of 1624x1200 pixels and 48% images have a resolution of at least 2,560x1,440 pixels) and 709,330 labeled objects in total with a large variance in scale and appearance. Meanwhile, the dataset has a rich diversity in season variance, illumination variance, and weather variance. Based on this object dataset, a new diverse pedestrian dataset is further built. With the four different detectors (i.e., the one-stage RetinaNet, anchor-free FCOS, two-stage FPN, and Cascade R-CNN), experiments about object detection and pedestrian detection are conducted. We hope that the newly built dataset can help promote the research on object detection and pedestrian detection in these two scenes.
-## Object detection dataset <a name="2"></a>
+## 2. Object detection dataset <a name="2"></a>
 
 |  name   | DHD-traffic (\#images)  | DHD-traffic (\#instances)  | DHD-campus (\#images) | DHD-campus (\#instances) |
 | :------------ | :---------------:| :---------------:|:---------------:| :---------------:|    
@@ -35,7 +36,7 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
 | test | 10,000 | 60,963 | 10,157 | 68,643 |
 | total | 60,266 | 331,622 | 55,088 | 377,708 |
 
-#### TJU-traffic <a name="2.1"></a>
+#### 2.1 TJU-traffic <a name="2.1"></a>
 * training & validation set:
     * images: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/ERPTtJ9Qf3hHnKn9JQc9_y0B5uaq6qXjnF4U--2wiSTjRw?e=aarX3v)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_images.zip)
     * annotations: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EY0m5aX84EJFnquyCE8KSp8BiZKTlNHySbdJ0QG-nE2XTQ?e=Abpvgz)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_annos.zip)
@@ -45,7 +46,7 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
 * evaluation tools:
   [cocoapi](https://github.com/cocodataset/cocoapi)
 
-#### TJU-campus <a name="2.1"></a>
+#### 2.2 TJU-campus <a name="2.2"></a>
 (The training imageset is too large, thus is ziped as a 4-part archive.
 One should download all of them and open the `.zip.001` using your favorite zip file extractor.)
 * training & validation set:
@@ -62,7 +63,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
   [cocoapi](https://github.com/cocodataset/cocoapi)
 
 
-## Pedestrian detection dataset<a name="3"></a>
+## 3. Pedestrian detection dataset<a name="3"></a>
 
 |  name   | Ped-traffic (\#images)  | Ped-traffic (\#instances)  | Ped-campus (\#images) | Ped-campus (\#instances) |
 | :------------ | :---------------:| :---------------:|:---------------:| :---------------:|    
@@ -71,7 +72,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 | test | 4,344 | 10,724 | 10,157 | 59,007 |
 | total | 20,338 | 43,618 | 55,088 | 329,623 |
 
-#### Ped-campus <a name="3.1"></a>
+#### 3.1 Ped-campus <a name="3.1"></a>
 (Note that the images are same as those in the DHD-traffic)
 * training & validation set:
     * images: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/ERPTtJ9Qf3hHnKn9JQc9_y0B5uaq6qXjnF4U--2wiSTjRw?e=aarX3v)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_images.zip)
@@ -82,7 +83,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 * evaluation tools:
   [Citypersons API](https://bitbucket.org/shanshanzhang/citypersons)
 
-#### Ped-campus <a name="3.2"></a>
+#### 3.2 Ped-campus <a name="3.2"></a>
 (Note that the images are same as those in the DHD-campus)
 * training & validation set:
     * training images-1: [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EQOf_tTaDz9AtGBA7xXZdMYBmGgEN3wI6pYxdj_sqU9RaA?e=IAa4z4)/[GoogleDrive]()/[backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.001)
@@ -99,9 +100,9 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 
 
 
-## Benchmark <a name="4"></a>
+## 4. Benchmark <a name="4"></a>
 
-#### TJU-traffic <a name="4.1"></a>
+#### 4.1 TJU-traffic <a name="4.1"></a>
 
 * Results on validation
 
@@ -112,7 +113,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
   | FPN | ResNet50 | 1333x800  | 55.4| 83.4 | 63.0 | 30.4 | 52.2 | 68.2 | 
   | Cascade RCNN | ResNet50 | 1333x800  | 57.9| 82.7 | 66.6 | 32.6 | 54.4 | 71.4 |
 
-### TJU-campus <a name="4.2"></a>
+### 4.2 TJU-campus <a name="4.2"></a>
 
 * Results on validation
 
@@ -123,7 +124,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
   | FPN | ResNet50 | 1333x800  | 52.4| 77.5 | 58.4 | 8.5 | 37.4 | 58.6 |  74.9 | 
   | Cascade RCNN | ResNet50 | 1333x800  | 55.1| 77.6 | 60.9 | 10.8 | 40.1 | 61.2 | 78.8 |
 
-### DHD-pededstrian <a name="4.3"></a>
+### 4.3 DHD-pededstrian <a name="4.3"></a>
 
 * Same-scene evaluation
 
@@ -137,7 +138,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
   | --- |:--------------------:| :---------------------:|
   | FPN | 24.90 / 34.34 | 29.39 / 43.22 |
 
-## Citation <a name="5"></a>
+## 5. Citation <a name="5"></a>
 
 If this project help your research, please consider to cite our survey paper.
 ```
@@ -148,6 +149,6 @@ If this project help your research, please consider to cite our survey paper.
          year = "2020"
         }
 ```
-## Contact <a name="6"></a>
+## 6. Contact <a name="6"></a>
 
 If you have any questions or want to add your results, please feel free to [contact us](https://github.com/vilabtju/dhd-dataset/issues).
