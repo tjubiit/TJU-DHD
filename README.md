@@ -126,17 +126,17 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 
 #### 4.3 TJU-DHD-pededstrian <a name="4.3"></a>
 
-* Same-scene evaluation
+* Miss rate with same-scene evaluation
 
-  |   method  | MR on R/RS/HO/R+HO/A (Ped-campus) | MR on R/RS/HO/R+HO/A (Ped-traffic)  | 
+  |   method  | R/RS/HO/R+HO/A (Ped-campus) | R/RS/HO/R+HO/A (Ped-traffic)  | 
   | --- |:-----------:| :-----------:|
   | FPN | 27.92/73.14/67.52/35.67/38.08 | 22.30/35.19/60.30/26.71/37.78 |
 
-* Cross-scene evaluatioin
+* Miss rate with cross-scene evaluatioin
 
-  |   method  | MR on R+HO an A   (trained by Ped-campus)  | MR on R+HO and A    (trained by Ped-traffic)  |
+  |   method  | R and R+HO   (Ped-campus -> Ped-traffic)  | R and R+HO    (Ped-traffic -> Ped-campus)  |
   | --- |:--------------------:| :---------------------:|
-  | FPN | 24.90 / 34.34 | 29.39 / 43.22 |
+  | FPN | 30.62 / 33.89 | 42.08 / 50.55 |
 
 ## 5. Citation <a name="5"></a>
 
