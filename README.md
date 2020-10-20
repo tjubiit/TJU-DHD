@@ -132,7 +132,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
   | --- |:-----------:| :-----------:|
   | FPN | 27.92/73.14/67.52/35.67/38.08 | 22.30/35.19/60.30/26.71/37.78 |
 
-* Miss rate with cross-scene evaluatioin
+* Miss rate with cross-scene evaluation
 
   |   method  | R and R+HO   (Ped-campus -> Ped-traffic)  | R and R+HO    (Ped-traffic -> Ped-campus)  |
   | --- |:--------------------:| :---------------------:|
