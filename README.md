@@ -124,7 +124,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
   | FPN | ResNet50 | 1333x800  | 52.4| 77.5 | 58.4 | 8.5 | 37.4 | 58.6 |  74.9 | 
   | Cascade RCNN | ResNet50 | 1333x800  | 55.1| 77.6 | 60.9 | 10.8 | 40.1 | 61.2 | 78.8 |
 
-#### 4.3 TJU-DHD-pededstrian <a name="4.3"></a>
+#### 4.3 TJU-DHD-pedestrian <a name="4.3"></a>
 
 * Miss rate with same-scene evaluation
 
@@ -144,11 +144,19 @@ If this project help your research, please consider to cite our survey paper.
 ```
 @article{Pang_DHD_TIP_2020,
          author = {Yanwei Pang and Jiale Cao and Yazhao Li and Jin Xie and Hanqing Sun and Jinfeng Gong},
-         title = "{TJU-DHD: A Diverse High-Resolution Dataset for Object Detection}",
+         title = {TJU-DHD: A Diverse High-Resolution Dataset for Object Detection},
          journal = {IEEE Transactions on Image Processing},
          year = "2020"
         }
 ```
+If you want to learn more works about pedestrian detection methods and datasets, you can read [our survey paper](https://arxiv.org/pdf/2010.00456.pdf).
+@article{Cao_PDR_arXiv_2020,
+         author = {Jiale Cao and Yanwei Pang and Jin Xie and Fahad Shahbaz Khan and Ling Shao},
+         title = {From Handcrafted to Deep Features for Pedestrian Detection: A Survey},
+         journal = {arXiv},
+         year = "2020"
+        }
+        
 ## 6. Contact <a name="6"></a>
 
 If you have any questions or want to add your results, please feel free to [contact us](https://github.com/vilabtju/dhd-dataset/issues).
