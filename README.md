@@ -149,14 +149,16 @@ If this project help your research, please consider to cite our survey paper.
          year = "2020"
         }
 ```
-If you want to learn more works about pedestrian detection methods and datasets, you can read [our survey paper](https://arxiv.org/pdf/2010.00456.pdf).
+If you are interested in pedestrian detection methods and datasets, you can read [our survey paper](https://arxiv.org/pdf/2010.00456.pdf).
+```
 @article{Cao_PDR_arXiv_2020,
          author = {Jiale Cao and Yanwei Pang and Jin Xie and Fahad Shahbaz Khan and Ling Shao},
          title = {From Handcrafted to Deep Features for Pedestrian Detection: A Survey},
          journal = {arXiv},
          year = "2020"
         }
-        
+```
+
 ## 6. Contact <a name="6"></a>
 
 If you have any questions or want to add your results, please feel free to [contact us](https://github.com/vilabtju/dhd-dataset/issues).
