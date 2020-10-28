@@ -149,7 +149,7 @@ If this project help your research, please consider to cite our survey paper.
          year = "2020"
         }
 ```
-If you are interested in pedestrian detection methods and datasets, you can read [our survey paper](https://arxiv.org/pdf/2010.00456.pdf).
+If you are interested in pedestrian detection methods and datasets, you can read [our survey paper](https://arxiv.org/pdf/2010.00456.pdf) or [our projects](https://github.com/JialeCao001/PedSurvey).
 ```
 @article{Cao_PDR_arXiv_2020,
          author = {Jiale Cao and Yanwei Pang and Jin Xie and Fahad Shahbaz Khan and Ling Shao},
