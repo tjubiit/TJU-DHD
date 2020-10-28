@@ -142,7 +142,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 
 ## 5. Citation <a name="5"></a>
 
-If this project help your research, please consider to cite our survey paper.
+If this project help your research, please consider to cite our paper.
 ```
 @article{Pang_DHD_TIP_2020,
          author = {Yanwei Pang and Jiale Cao and Yazhao Li and Jin Xie and Hanqing Sun and Jinfeng Gong},
@@ -150,9 +150,7 @@ If this project help your research, please consider to cite our survey paper.
          journal = {IEEE Transactions on Image Processing},
          year = "2020"
         }
-```
-If you are interested in pedestrian detection methods and datasets, you can read [our survey paper](https://arxiv.org/pdf/2010.00456.pdf) or [our projects](https://github.com/JialeCao001/PedSurvey).
-```
+
 @article{Cao_PDR_arXiv_2020,
          author = {Jiale Cao and Yanwei Pang and Jin Xie and Fahad Shahbaz Khan and Ling Shao},
          title = {From Handcrafted to Deep Features for Pedestrian Detection: A Survey},
