@@ -1,4 +1,4 @@
-## TJU-DHD dataset (Object detection and pedestrian detection)
+## TJU-DHD dataset (object detection and pedestrian detection)
 
 This is the official website for "*[TJU-DHD: A Diverse High-Resolution Dataset for Object Detection (TIP2020)](xxx)*", which is a newly built high-resolution dataset for object detection and pedestrian detection.
 - Two difference scenes: **traffic** scene and **campus** scene
