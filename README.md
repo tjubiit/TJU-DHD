@@ -5,7 +5,7 @@ This is the official website for "*[TJU-DHD: A Diverse High-Resolution Dataset f
 - Two different tasks: **object detection** and **pedestrian detection**
 - **High resolution**: image resolution of at least 1624x1200 pixels, the object height from 11 pixels to 4152 pixels.
 - **Diversity**: A large variance in appearance, scale, illumination, season, and weather
-- **Cross-scene evalution** and **same-scene evalution**  on pedetrian detection
+- **Cross-scene evalution** and **same-scene evalution**  on pedestrian detection
 - If you are interested in pedestrian detection, please refer to [our survey paper](https://arxiv.org/pdf/2010.00456.pdf) or [our github project](https://github.com/JialeCao001/PedSurvey).
 
 ![Examples of DHD](imgs/diversity.jpg)
