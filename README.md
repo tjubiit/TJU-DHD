@@ -1,6 +1,6 @@
 ## TJU-DHD dataset (object detection and pedestrian detection)
 
-This is the official website for "*[TJU-DHD: A Diverse High-Resolution Dataset for Object Detection (TIP2020)](xxx)*", which is a newly built high-resolution dataset for object detection and pedestrian detection.
+This is the official website for "*[TJU-DHD: A Diverse High-Resolution Dataset for Object Detection (TIP2020)](https://arxiv.org/abs/2011.09170.pdf)*", which is a newly built high-resolution dataset for object detection and pedestrian detection.
 - Two difference scenes: **traffic** scene and **campus** scene
 - Two different tasks: **object detection** and **pedestrian detection**
 - **High resolution**: image resolution of at least 1624x1200 pixels, the object height from 11 pixels to 4152 pixels.
