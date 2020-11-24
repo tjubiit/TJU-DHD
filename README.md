@@ -220,14 +220,14 @@ If this project help your research, please consider to cite our paper.
          author = {Yanwei Pang and Jiale Cao and Yazhao Li and Jin Xie and Hanqing Sun and Jinfeng Gong},
          title = {TJU-DHD: A Diverse High-Resolution Dataset for Object Detection},
          journal = {IEEE Transactions on Image Processing},
-         year = "2020"
+         year = 2020
         }
 
 @article{Cao_PDR_arXiv_2020,
          author = {Jiale Cao and Yanwei Pang and Jin Xie and Fahad Shahbaz Khan and Ling Shao},
          title = {From Handcrafted to Deep Features for Pedestrian Detection: A Survey},
-         journal = {arXiv},
-         year = "2020"
+         journal = {arXiv:2010.00456},
+         year = 2020
         }
 ```
 
