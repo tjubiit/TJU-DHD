@@ -110,8 +110,8 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 | test       |         4,344          |          10,724           |        10,157         |          59,007          |
 | total      |         20,338         |          43,618           |        55,088         |         329,623          |
 
-#### 3.1 Ped-DHD-traffic <a name="3.1"></a>
-(Note that the images are same as those in the DHD-traffic)
+#### 3.1 TJU-Ped-traffic <a name="3.1"></a>
+(Note that the images are same as those in the TJU-DHD-traffic)
 * training & validation set:
     * images:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/ERPTtJ9Qf3hHnKn9JQc9_y0B5uaq6qXjnF4U--2wiSTjRw?e=aarX3v)
@@ -133,8 +133,8 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 * evaluation tools:
   [Citypersons API](https://bitbucket.org/shanshanzhang/citypersons)
 
-#### 3.2 Ped-DHD-campus <a name="3.2"></a>
-(Note that the images are same as those in the DHD-campus)
+#### 3.2 TJU-Ped-campus <a name="3.2"></a>
+(Note that the images are same as those in the TJU-DHD-campus)
 * training & validation set:
     * training images-1:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EQOf_tTaDz9AtGBA7xXZdMYBmGgEN3wI6pYxdj_sqU9RaA?e=IAa4z4)
@@ -202,13 +202,13 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 
 * Miss rate with same-scene evaluation
 
-  | method |  R/RS/HO/R+HO/A (Ped-campus)  | R/RS/HO/R+HO/A (Ped-traffic)  |
+  | method |  R/RS/HO/R+HO/A (TJU-Ped-campus)  | R/RS/HO/R+HO/A (TJU-Ped-traffic)  |
   | :----- | :---------------------------: | :---------------------------: |
   | FPN    | 27.92/73.14/67.52/35.67/38.08 | 22.30/35.19/60.30/26.71/37.78 |
 
 * Miss rate with cross-scene evaluation
 
-  | method | R and R+HO   (Ped-campus -> Ped-traffic) | R and R+HO    (Ped-traffic -> Ped-campus) |
+  | method | R and R+HO   (TJU-Ped-campus -> TJU-Ped-traffic) | R and R+HO    (TJU-Ped-traffic -> TJU-Ped-campus) |
   | :----- | :--------------------------------------: | :---------------------------------------: |
   | FPN    |              30.62 / 33.89               |               42.08 / 50.55               |
 
