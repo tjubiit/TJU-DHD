@@ -208,7 +208,7 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 
 * Miss rate with cross-scene evaluation
 
-  | method | R and R+HO   (TJU-Ped-campus -> TJU-Ped-traffic) | R and R+HO    (TJU-Ped-traffic -> TJU-Ped-campus) |
+  | method | R/R+HO (TJU-Ped-campus -> TJU-Ped-traffic) | R/R+HO (TJU-Ped-traffic -> TJU-Ped-campus) |
   | :----- | :--------------------------------------: | :---------------------------------------: |
   | FPN    |              30.62 / 33.89               |               42.08 / 50.55               |
 
