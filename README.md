@@ -24,7 +24,8 @@ This is the official website for "*[TJU-DHD: A Diverse High-Resolution Dataset f
    4.2 [TJU-DHD-campus](#4.2)   
    4.3 [TJU-DHD-pedestrian](#4.3) 
 5. [Citation](#5)  
-6. [Contact](#6) 
+6. [Evaluation on the test set](#6) 
+7. [Contact](#7) 
 
 ## 1. Introduction <a name="1"></a>
 
@@ -231,6 +232,11 @@ If this project help your research, please consider to cite our paper.
         }
 ```
 
-## 6. Contact <a name="6"></a>
+## 6. Evaluation on the test set <a name="6"></a>
+
+Ablation studies can be conducted on the validation set.
+If you would like to evaluate your model on the test set, you can send us (connor#tju.edu.cn, replace `#` with `@`) your detection results in the `json` format.
+
+## 7. Contact <a name="7"></a>
 
 If you have any questions or want to add your results, please feel free to [contact us](https://github.com/vilabtju/dhd-dataset/issues).
