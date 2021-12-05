@@ -201,13 +201,28 @@ One should download all of them and open the `.zip.001` using your favorite zip 
 
 #### 4.3 TJU-DHD-pedestrian <a name="4.3"></a>
 
-* Miss rate with same-scene evaluation
+* TJU-Ped-campus
 
-  | method |  R/RS/HO/R+HO/A (TJU-Ped-campus)  | R/RS/HO/R+HO/A (TJU-Ped-traffic)  |
-  | :----- | :---------------------------: | :---------------------------: |
-  | FPN    | 27.92/73.14/67.52/35.67/38.08 | 22.30/35.19/60.30/26.71/37.78 |
+|    Method       | publication  |  **R**  | **RS** | **HO** | **R+HO** | **A**| link |
+| :--------      | :-----:  | :-------: | :-------: | :-----: | :------: | :------: | :------: |
+|  RetinaNet       | ICCV2017    |  34.73 | 82.99 |   71.31  |    42.26     |     44.34   |  [Paper](https://arxiv.org/abs/1708.02002)   |
+|  FCOS  | ICCV2019    |  31.89 |   69.04  |  81.28 |   39.38     |     41.62   |  [Paper](https://arxiv.org/abs/1904.01355)   |
+|  FPN | ICCV2017    |  27.92 |   67.52 | 73.14 |    35.67     |     38.08  |  [Paper](https://arxiv.org/abs/1612.03144)    |
+|  CrowdDet  | CVPR2019    | 25.73 | - |   66.38 |    33.63     |     35.90   |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chu_Detection_in_Crowded_Scenes_One_Proposal_Multiple_Predictions_CVPR_2020_paper.pdf)   |
+|  EGCL | arXiv2021    |  24.84 |- |    65.27  |   32.39     |     34.87  |  [Paper](https://arxiv.org/abs/2111.08974)  |
 
-* Miss rate with cross-scene evaluation
+* TJU-Ped-traffic
+
+|    Method       | publication  |  **R**  | **RS** |**HO** | **R+HO** | **A**| link |
+| :--------      | :-----:  | :-------: | :-----: | :-----: | :------: | :------: | :------: |
+|  RetinaNet       | ICCV2017    |  23.89 | 37.92 |    61.60  |    28.45     |     41.40   |  [Paper](https://arxiv.org/abs/1708.02002)   |
+|  FCOS  | ICCV2019    |  24.35 | 37.40|     63.73  |    28.86     |     40.02   |  [Paper](https://arxiv.org/abs/1904.01355)   |
+|  FPN | ICCV2017    |  22.30 | 35.19|     60.30 |    26.71     |     37.78  |  [Paper](https://arxiv.org/abs/1612.03144)    |
+|  CrowdDet  | CVPR2019    | 20.82 | -|     61.22  |    25.28     |     36.94   |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chu_Detection_in_Crowded_Scenes_One_Proposal_Multiple_Predictions_CVPR_2020_paper.pdf)   |
+|  EGCL | arXiv2021    |  19.73 | -|     60.05  |   24.19     |     35.76  |  [Paper](https://arxiv.org/abs/2111.08974)  |
+
+
+* Cross-scene evaluation
 
   | method | R/R+HO (TJU-Ped-campus -> traffic) | R/R+HO (TJU-Ped-traffic -> campus) |
   | :----- | :-----------------------------------------: | :---------------------------------------------: |
