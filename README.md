@@ -45,60 +45,79 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
     * images:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/ERPTtJ9Qf3hHnKn9JQc9_y0B5uaq6qXjnF4U--2wiSTjRw?e=aarX3v)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1eLxfl19LVLy9k-DrqTOYvg)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_images.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_images.zip) -->
+        * md5: c5de70827bde72a909a14d91be40ecc7
     * annotations:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EY0m5aX84EJFnquyCE8KSp8BiZKTlNHySbdJ0QG-nE2XTQ?e=Abpvgz)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1xFhMwQgpqk1QILwXS_dR2g)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_annos.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_annos.zip) -->
+        * md5: 4bb78bbe78166f8904e46a691e6814c4
 * test set:
     * images:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EbkVOGVzsoRIhR6u73iAv44BN3n9geqp3R-eTJeZCJen-w?e=az00He)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1b1iR8eujY28qm-pH8rHV-A)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_test_images.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_traffic_test_images.zip) -->
+        * md5: 74656dde79a4d5e856e31dfc1be30cbe
     * imageinfo:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EfuzQvR7qrhAi8oDMy5PheUBvxSL539oua1kD6g130DChg?e=yOhBGM)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1Np079urN0uQmybBM4RriZA)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_test_imageinfo.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_traffic_test_imageinfo.zip) -->
+        * md5: 458bf63ca74992c3145570cbc62f65fe
 * evaluation tools:
   [cocoapi](https://github.com/cocodataset/cocoapi)
 
 #### 2.2 TJU-DHD-campus <a name="2.2"></a>
-(The training imageset is too large, thus is ziped as a 4-part archive.
-One should download all of them and open the `.zip.001` using your favorite zip file extractor.)
+
+> The training imageset is too large, thus is ziped as a 4-part archive.
+> After downloading all four parts, you can open the `.zip.001` using your favorite zip file extractor.
+> On Linux, the multi-part archive can be also unzipped by
+> ```
+> cat dhd_campus_train_images.zip.* > dhd_campus_train_images.zip
+> unzip dhd_campus_train_images.zip -d /path/to/your/folder
+> ```
+
 * training & validation set:
     * training images-1:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EQOf_tTaDz9AtGBA7xXZdMYBmGgEN3wI6pYxdj_sqU9RaA?e=IAa4z4)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1aar9GAbityEBMMEnXEwbOA)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.001)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.001) -->
+        * md5: 1c781e3aab251a19cc8c304ec854b060
     * training images-2:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EYdb15b5s3hOm_2EWc_uLn8BtpzXnpZJLVRIH6HdbXfbVw?e=hHJNon)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1xWDiok5DTVT8HEMK09DPiA)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.002)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.002) -->
+        * md5: 502c25eb707718c3e99f4679f53b0fda
     * training images-3:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EatVjZJ4uJZGm3OOvdbjheMB6dIOlDumkbhVSMqNZFjSDQ?e=5a9C63)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1gUQs6XdUU7fczaydtLPBSg)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.003)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.003) -->
+        * md5: fc8ca78881eb94c3aa5d8d4ee8db5096
     * training images-4:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/ERJGIKSOjrVGodjyAtYWOBIBz7Yn3EGGjmtMRDpG9eFlHQ?e=x8MASb)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1PncIpCpS_En9Ka0aD6-_lA)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.004)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.004) -->
+        * md5: a3b33b17f0c89e57180bc174332ee764
     * validation images:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EUHmv-SilRtPlKVuV7TTYlUB24CVeAi9HPto9ZJ6m61kpA?e=aREmy0)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1WgbIEXIbGHjh6jBjh_l37A)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_val_images.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_val_images.zip) -->
+        * md5: 7c8d32bbe38c4231121235965cc1c778
     * annotations:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EfJ_SbAK2itJk8kyLBF9ER8BqO0faVumeWn8rPYMkGpqNw?e=Ckc2jn)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1JKnGky_Qzk3QluURgFxCBQ)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_trainval_annos.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_trainval_annos.zip) -->
+        * md5: 6feaf70d3caecdfdd5964ca94706864f
 * test set:
     * images:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EZZe-4Atw8tEkPdTToNXEboBtdORbKqz2j6asah_hgUgAA?e=ABQibv)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1I33BMKvU9WP_nC64wM1hHw)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_test_images.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_test_images.zip) -->
+        * md5: d0ada536ccb5851b42b656847d5b1e3b
     * imageinfo:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EQJpKUI5UUxBuM6ZQGLCLNwBEfGX0tgBR_JyZhAyRp4YYw?e=f6Zrxz)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1LmJRobdmYoqWv1NAqwKcsg)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_test_imageinfo.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_test_imageinfo.zip) -->
+        * md5: f954af5de91dc6272dfab89c7486ffb7
 * evaluation tools:
   [cocoapi](https://github.com/cocodataset/cocoapi)
 
@@ -118,20 +137,24 @@ One should download all of them and open the `.zip.001` using your favorite zip 
     * images:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/ERPTtJ9Qf3hHnKn9JQc9_y0B5uaq6qXjnF4U--2wiSTjRw?e=aarX3v)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1eLxfl19LVLy9k-DrqTOYvg)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_images.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_traffic_trainval_images.zip) -->
+        * md5: c5de70827bde72a909a14d91be40ecc7
     * annotations:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EZ35hrbp2PlBkim37i9BnecBKPTpYE92WjCD3GCnTDIXHA)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1wUdgtibmj16aKXvn57Cnfg)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_traffic_trainval_annos.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_traffic_trainval_annos.zip) -->
+        * md5: 80c434f14283fa169a6fa90b6115c412
 * test set:
     * images:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EbkVOGVzsoRIhR6u73iAv44BN3n9geqp3R-eTJeZCJen-w?e=az00He)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1b1iR8eujY28qm-pH8rHV-A)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_traffic_test_images.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_traffic_test_images.zip) -->
+        * md5: 74656dde79a4d5e856e31dfc1be30cbe
     * imageinfo:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EaqndNLmmcNOsgoHChviMiIB0eedPO6sgdZJBGPjURq2_Q?e=MEZNyD)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/14KaBUhWWio-KYf_1usMfhw)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_traffic_test_imageinfo.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_traffic_test_imageinfo.zip) -->
+        * md5: e60c660de79c70a00795fde5e40fe28e
 * evaluation tools:
   [Citypersons API](https://bitbucket.org/shanshanzhang/citypersons)
 
@@ -141,36 +164,44 @@ One should download all of them and open the `.zip.001` using your favorite zip 
     * training images-1:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EQOf_tTaDz9AtGBA7xXZdMYBmGgEN3wI6pYxdj_sqU9RaA?e=IAa4z4)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1aar9GAbityEBMMEnXEwbOA)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.001)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.001) -->
+        * md5: 1c781e3aab251a19cc8c304ec854b060
     * training images-2:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EYdb15b5s3hOm_2EWc_uLn8BtpzXnpZJLVRIH6HdbXfbVw?e=hHJNon)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1xWDiok5DTVT8HEMK09DPiA)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.002)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.002) -->
+        * md5: 502c25eb707718c3e99f4679f53b0fda
     * training images-3:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EatVjZJ4uJZGm3OOvdbjheMB6dIOlDumkbhVSMqNZFjSDQ?e=5a9C63)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1gUQs6XdUU7fczaydtLPBSg)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.003)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.003) -->
+        * md5: fc8ca78881eb94c3aa5d8d4ee8db5096
     * training images-4:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/ERJGIKSOjrVGodjyAtYWOBIBz7Yn3EGGjmtMRDpG9eFlHQ?e=x8MASb)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1PncIpCpS_En9Ka0aD6-_lA)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.004)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_train_images.zip.004) -->
+        * md5: a3b33b17f0c89e57180bc174332ee764
     * validation images:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EUHmv-SilRtPlKVuV7TTYlUB24CVeAi9HPto9ZJ6m61kpA?e=aREmy0)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1WgbIEXIbGHjh6jBjh_l37A)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_val_images.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_val_images.zip) -->
+        * md5: 7c8d32bbe38c4231121235965cc1c778
     * annotations:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EfyEXYoJ41BErzFfILHIG9YByAgkl2eFd5qHyVrSuPK9AA?e=s5aalT)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/124YE4YjwfkB134NILNa-Dg)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_campus_trainval_annos.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_campus_trainval_annos.zip) -->
+        * md5: d31f49f53c97add7ad2fc0383286e9d5
 * test set:
     * images:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EZZe-4Atw8tEkPdTToNXEboBtdORbKqz2j6asah_hgUgAA?e=ABQibv)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1I33BMKvU9WP_nC64wM1hHw)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_campus_test_images.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_campus_test_images.zip) -->
+        * md5: d0ada536ccb5851b42b656847d5b1e3b
     * imageinfo:
       [OneDrive](https://tjueducn-my.sharepoint.com/:u:/g/personal/hqsun_tju_edu_cn/EXaIKrEGScJNulDTzu9NG8kBk18S03yvfKlNR-bS9NPh1g?e=aUUFBJ)
       / [BaiduNetDisk (code: biit)](https://pan.baidu.com/s/1zNyzTBCVgPZsWW1SbsmNKw)
-      / [backup](http://vi.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_campus_test_imageinfo.zip)
+      <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_campus_test_imageinfo.zip) -->
+        * md5: 23c80bfca2effd670f86586d696b26e6
 * evaluation tools:
   [Citypersons API](https://bitbucket.org/shanshanzhang/citypersons)
 
