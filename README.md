@@ -241,7 +241,9 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
 |  FCOS  | ICCV2019    |  31.89 |   69.04  |  81.28 |   39.38     |     41.62   |  [Paper](https://arxiv.org/abs/1904.01355)   |
 |  FPN | ICCV2017    |  27.92 |   67.52 | 73.14 |    35.67     |     38.08  |  [Paper](https://arxiv.org/abs/1612.03144)    |
 |  CrowdDet  | CVPR2020    | 25.73 | - |   66.38 |    33.63     |     35.90   |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chu_Detection_in_Crowded_Scenes_One_Proposal_Multiple_Predictions_CVPR_2020_paper.pdf)   |
-|  EGCL | arXiv2021    |  24.84 |- |    65.27  |   32.39     |     34.87  |  [Paper](https://arxiv.org/abs/2111.08974)  |
+|  EGCL | IEEE TIP2023    |  24.84 |- |    65.27  |   32.39     |     34.87  |  [Paper](https://arxiv.org/abs/2111.08974)  |
+|  DeFCN | CVPR2021    |  32.1 | 62.7 |     72.7  |   39.9     |     42.1 |  [Paper](https://arxiv.org/abs/2012.03544)  |
+|  OPL | CVPR2023    |  31.5 | 61.7 |    72.4  |   39.3     |     41.5  |  [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_Optimal_Proposal_Learning_for_Deployable_End-to-End_Pedestrian_Detection_CVPR_2023_paper.pdf)  |
 
 * TJU-Ped-traffic
 
@@ -251,8 +253,11 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
 |  FCOS  | ICCV2019    |  24.35 | 37.40|     63.73  |    28.86     |     40.02   |  [Paper](https://arxiv.org/abs/1904.01355)   |
 |  FPN | ICCV2017    |  22.30 | 35.19|     60.30 |    26.71     |     37.78  |  [Paper](https://arxiv.org/abs/1612.03144)    |
 |  CrowdDet  | CVPR2020    | 20.82 | -|     61.22  |    25.28     |     36.94   |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chu_Detection_in_Crowded_Scenes_One_Proposal_Multiple_Predictions_CVPR_2020_paper.pdf)   |
-|  EGCL | arXiv2021    |  19.73 | -|     60.05  |   24.19     |     35.76  |  [Paper](https://arxiv.org/abs/2111.08974)  |
-
+|  EGCL | IEEE TIP2023    |  19.73 | -|     60.05  |   24.19     |     35.76  |  [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_Optimal_Proposal_Learning_for_Deployable_End-to-End_Pedestrian_Detection_CVPR_2023_paper.pdf)  |
+|  DeFCN | CVPR2021    |  24.2 | 29.1 |     62.8  |   29.0     |     39.7 |  [Paper](https://arxiv.org/abs/2012.03544)  |
+|  Pedestron | CVPR2021    |  18.9 | 24.0 |    56.3  |   -    |     -  |  [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Hasan_Generalizable_Pedestrian_Detection_The_Elephant_in_the_Room_CVPR_2021_paper.pdf)  |
+|  OPL | CVPR2023    |  23.4 | 28.8 |    62.7  |   28.0     |     38.7  |  [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_Optimal_Proposal_Learning_for_Deployable_End-to-End_Pedestrian_Detection_CVPR_2023_paper.pdf)  |
+|  LSFM | CVPR2023    |  18.7 | 24.9 |    56.2  |   -    |     -  |  [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Khan_Localized_Semantic_Feature_Mixers_for_Efficient_Pedestrian_Detection_in_Autonomous_CVPR_2023_paper.pdf)  |
 
 * Cross-scene evaluation
 
@@ -262,20 +267,20 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
 
 ## 5. Citation <a name="5"></a>
 
-If this project help your research, please consider to cite our paper.
+If this project help your research, please consider to cite our works.
 ```
 @article{Pang_DHD_TIP_2020,
          author = {Yanwei Pang and Jiale Cao and Yazhao Li and Jin Xie and Hanqing Sun and Jinfeng Gong},
          title = {TJU-DHD: A Diverse High-Resolution Dataset for Object Detection},
          journal = {IEEE Transactions on Image Processing},
-         year = 2020
+         year = 2021
         }
 
-@article{Cao_PDR_arXiv_2020,
+@article{Cao_PDR_TPAMI_2020,
          author = {Jiale Cao and Yanwei Pang and Jin Xie and Fahad Shahbaz Khan and Ling Shao},
          title = {From Handcrafted to Deep Features for Pedestrian Detection: A Survey},
-         journal = {arXiv:2010.00456},
-         year = 2020
+         journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+         year = 2022
         }
 ```
 
