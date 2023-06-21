@@ -156,7 +156,7 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
       <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_traffic_test_imageinfo.zip) -->
         * md5: e60c660de79c70a00795fde5e40fe28e
 * evaluation tools:
-  [Citypersons API](https://bitbucket.org/shanshanzhang/citypersons)
+  [Citypersons API](https://github.com/cvgroup-njust/CityPersons)
 
 #### 3.2 TJU-Ped-campus <a name="3.2"></a>
 (Note that the images are same as those in the TJU-DHD-campus)
@@ -203,7 +203,7 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
       <!-- / [backup](http://biit.tju.edu.cn/public/dhd_dataset/dhd_pedestrian_campus_test_imageinfo.zip) -->
         * md5: 0dd0130714017255bea52d85f014f6af
 * evaluation tools:
-  [Citypersons API](https://bitbucket.org/shanshanzhang/citypersons)
+  [Citypersons API](https://github.com/cvgroup-njust/CityPersons)
 
 
 
