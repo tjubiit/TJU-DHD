@@ -244,6 +244,7 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
 |  EGCL | IEEE TIP2023    |  24.84 |- |    65.27  |   32.39     |     34.87  |  [Paper](https://arxiv.org/abs/2111.08974)  |
 |  DeFCN | CVPR2021    |  32.1 | 62.7 |     72.7  |   39.9     |     42.1 |  [Paper](https://arxiv.org/abs/2012.03544)  |
 |  OPL | CVPR2023    |  31.5 | 61.7 |    72.4  |   39.3     |     41.5  |  [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_Optimal_Proposal_Learning_for_Deployable_End-to-End_Pedestrian_Detection_CVPR_2023_paper.pdf)  |
+|  MTOM | WACV2023    |  21.8 | 37.04 |    57.08  |   -     |     -  |  [Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Shastry_Favoring_One_Among_Equals_-_Not_a_Good_Idea_Many-to-One_WACV_2024_paper.pdf)  |
 
 * TJU-Ped-traffic
 
@@ -258,6 +259,7 @@ Vehicles, pedestrians, and riders are the most important and interesting objects
 |  Pedestron | CVPR2021    |  18.9 | 24.0 |    56.3  |   -    |     -  |  [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Hasan_Generalizable_Pedestrian_Detection_The_Elephant_in_the_Room_CVPR_2021_paper.pdf)  |
 |  OPL | CVPR2023    |  23.4 | 28.8 |    62.7  |   28.0     |     38.7  |  [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_Optimal_Proposal_Learning_for_Deployable_End-to-End_Pedestrian_Detection_CVPR_2023_paper.pdf)  |
 |  LSFM | CVPR2023    |  18.7 | 24.9 |    56.2  |   -    |     -  |  [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Khan_Localized_Semantic_Feature_Mixers_for_Efficient_Pedestrian_Detection_in_Autonomous_CVPR_2023_paper.pdf)  |
+|  MTOM | WACV2023    |  17.4 | 24.7 |    52.68  |   -     |     -  |  [Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Shastry_Favoring_One_Among_Equals_-_Not_a_Good_Idea_Many-to-One_WACV_2024_paper.pdf)  |
 
 * Cross-scene evaluation
 
